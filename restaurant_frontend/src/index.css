@@ -1,0 +1,110 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+}
+
+/*navbar design*/
+.navbar {
+  background-color: #20c997 !important;
+}
+.navbar-nav .nav-item.active .nav-link {
+  border-bottom: 3px solid green; /* Active border style */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  border-bottom: 3px solid black; /* Hover border style */
+}
+
+.navbar-nav .nav-item .nav-link.active-link:hover {
+  border-bottom: 3px solid green; /* Active link hover border style */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo-img {
+  width: 50px;
+  height: 50px;
+}
+
+.restaurant-name {
+  margin-bottom: 0;
+}
+
+/* home page design */
+
+.header-title {
+  color: white;
+}
+
+.menu-item {
+  gap: 20px;
+}
+.menu-card {
+  padding: 20px;
+  display: flex;
+  flex: 1 0 25%;
+}
+
+.card-body-header {
+  display: inline-flex;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-body-footer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.card-body {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  flex-direction: column;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.cart-add-btn {
+  width: 100%;
+}
+
+/* cart page design */
+
+.list-group {
+  gap: 20px;
+}
+
+.cart-btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.itemquantity {
+  background: #20c997;
+  padding: 4px 8px;
+}
